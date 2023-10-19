@@ -34,9 +34,18 @@
 }
 
 .carousel-overlay p {
-    color: #FFF9D7; /* Change this to fit your design */
+    color: #FFF9D7; 
     font-size: 24px; 
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+.carousel-logo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+  }
