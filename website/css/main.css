@@ -181,3 +181,73 @@ iframe {
     font-size: 16px;
     line-height: 1.5;
   }
+
+
+
+  /* Base styles for the container */
+.containerForm {
+  width: 100%;
+  max-width: 600px; /* makes sure form doesn't span too wide */
+  margin: 50px auto; /* centering */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Heading style */
+.containerForm h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 10px;
+}
+
+/* Label cells */
+table td:first-child {
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* Input fields styling */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Textarea styling */
+textarea {
+  resize: vertical; /* allows vertical resizing */
+  min-height: 100px;
+}
+
+/* Button styling */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* darken the button on hover */
+}
